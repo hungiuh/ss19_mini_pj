@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="MmIKw3zb7qmFixf-YNo7">
+    <mxGraphModel dx="1480" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t-gVBpBRySz25frIhZh9-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="300" width="20" x="90" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Khách hàng" vertex="1">
+          <mxGeometry height="30" width="70" x="65" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":KhachHang" vertex="1">
+          <mxGeometry height="300" width="100" x="300" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-6" parent="t-gVBpBRySz25frIhZh9-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="45" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":SanPham" vertex="1">
+          <mxGeometry height="300" width="100" x="480" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-9" parent="t-gVBpBRySz25frIhZh9-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="45" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":DonHang" vertex="1">
+          <mxGeometry height="300" width="100" x="660" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-13" parent="t-gVBpBRySz25frIhZh9-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="45" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-8" edge="1" parent="1" source="t-gVBpBRySz25frIhZh9-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="t-gVBpBRySz25frIhZh9-1" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="292.5" y="365.0000000000002" />
+            </Array>
+            <mxPoint x="240" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-7" edge="1" parent="1" source="t-gVBpBRySz25frIhZh9-1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="t-gVBpBRySz25frIhZh9-6" value="Bấm nút &quot;Đặt hàng">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="240" y="155" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-10" edge="1" parent="1" source="t-gVBpBRySz25frIhZh9-6" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="t-gVBpBRySz25frIhZh9-9" value="kiemTraTonKho()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="452.5" y="165" />
+            </Array>
+            <mxPoint x="380" y="175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-11" edge="1" parent="1" source="t-gVBpBRySz25frIhZh9-9" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="t-gVBpBRySz25frIhZh9-6" value="true (Đủ hàng)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="452.5" y="235" />
+            </Array>
+            <mxPoint x="380" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-12" edge="1" parent="1" source="t-gVBpBRySz25frIhZh9-1" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="t-gVBpBRySz25frIhZh9-6" value="Nhập mã giảm giá và xác nhận">
+          <mxGeometry relative="1" width="60" x="-0.0143" as="geometry">
+            <Array as="points">
+              <mxPoint x="267.5" y="240" />
+            </Array>
+            <mxPoint x="190" y="240" as="sourcePoint" />
+            <mxPoint x="250" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-14" edge="1" parent="1" source="t-gVBpBRySz25frIhZh9-6" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="t-gVBpBRySz25frIhZh9-13" value="taoDon()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="642.5" y="265" />
+            </Array>
+            <mxPoint x="580" y="285" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t-gVBpBRySz25frIhZh9-15" edge="1" parent="1" source="t-gVBpBRySz25frIhZh9-13" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="t-gVBpBRySz25frIhZh9-6" value="Đơn hàng tạo thành công">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="642.5" y="335" />
+            </Array>
+            <mxPoint x="580" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
